@@ -1,6 +1,6 @@
 # Interface for blind reading of a nodule from radiologists
 
-![Alt text](./interface.svg)
+![Alt text](./interface-radiologists.svg)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
@@ -10,14 +10,14 @@
 
 
 > This tool creates a simple Tkinter interface to be used to show the location of a nodule in a particular slice of a participant.
-In order for this tool to work we need to have in a folder subfolders with participant ids (so that the title of the image in the interface will be the participant id), each containing some images that include the slice number of the nodule they contain. These images can be created using our semi-automated algorithm which can be found [here] (https://github.com/nsourlos/Siemens_AIRadCompanion_automatic_comparison).
+In order for this tool to work we need to have in a folder subfolders with participant ids (so that the title of the image in the interface will be the participant id), each containing some images that include the slice number of the nodule they contain. These images can be created using our semi-automated algorithm which can be found [here](https://github.com/nsourlos/Siemens_AIRadCompanion_automatic_comparison).
 User can type in the box that appears comments and by clicking the 'save' button a txt file with them will be created. By clicking the 'x' button the next image will appear in the interface.
 
 The python file that does that can be found [here](/interface.py)
 
 A screenshot of how the interface looks can be seen below
 
-<img src="./images/interface.png">
+<img src="./images/interface.jpg">
 
 ## Documentation (by *Chat GPT*)
 

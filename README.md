@@ -19,6 +19,10 @@ A screenshot of how the interface looks can be seen below
 
 <img src="./images/interface.jpg">
 
+> On top of the above, an alternative approach is to have each radiologist perform the nodule review on his/her own and at the end, discuss cases where they disagree. Another file is provided that can be used for it, by renaming images to be reviewed by the radiologists (remove from the file name information about ‘fp’ or ‘fn’). The resulting file will only consists of the slice where the finding can be found. Moreover, an excel file will be created with the participant id and next to it the slice with the finding along with some empty fields to be filled by the radiologists during the review. 
+
+This file can be found [here](/rename_blind_reading_&_export_to_excel_for_review.ipynb)
+
 ## Documentation (by *Chat GPT*)
 
 The documentation below was created by using the prompt 

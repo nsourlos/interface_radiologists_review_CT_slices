@@ -5,7 +5,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)]( https://github.com/nsourlos/interface_radiologists_review_CT_slices)
 
 
@@ -19,7 +18,7 @@ A screenshot of how the interface looks can be seen below
 
 <img src="./images/interface.jpg">
 
-> On top of the above, an alternative approach is to have each radiologist perform the nodule review on his/her own and at the end, discuss cases where they disagree. Another file is provided that can be used for it, by renaming images to be reviewed by the radiologists (remove from the file name information about ‘fp’ or ‘fn’). The resulting file will only consists of the slice where the finding can be found. Moreover, an excel file will be created with the participant id and next to it the slice with the finding along with some empty fields to be filled by the radiologists during the review. 
+> On top of the above, an alternative approach is to have each radiologist perform the nodule review on his/her own and at the end, discuss cases where they disagree. Another file is provided that can be used for it, by renaming images to be reviewed by the radiologists (remove from the file name information about ï¿½fpï¿½ or ï¿½fnï¿½). The resulting file will only consists of the slice where the finding can be found. Moreover, an excel file will be created with the participant id and next to it the slice with the finding along with some empty fields to be filled by the radiologists during the review. 
 
 This file can be found [here](/rename_blind_reading_&_export_to_excel_for_review.ipynb)
 
@@ -64,7 +63,3 @@ To run the code, provide the folder path as input in the data_path variable and 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
- 
-## License
-[MIT License](LICENSE)
